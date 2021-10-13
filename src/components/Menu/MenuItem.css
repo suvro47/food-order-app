@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto+Slab:wght@300&display=swap');
+
+.menu-title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-description {
+    font-size: 30px;
+    font-family: 'Ephesis', cursive;
+}
+
+.menu-price {
+    color : rgb(145, 59, 59);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.line {
+    width : 100%;
+    background-color: red;
+    height : 0.5px;
+    margin : 10px 0 10px 0;
+}
+
+.main-menu {
+    display : flex;
+    justify-content : space-around;
+    align-items: center;
+    flex-wrap : wrap;
+}
+
+.input {
+    display : flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding : 5px;
+    width : 80px;
+    margin-bottom: 5px;
+}
+
+.input-btn {
+    padding : 10px;
+    width : 100px;
+    border-radius: 20px;
+    cursor : pointer;
+    border : none;
+    background-color: rgb(99, 51, 51);
+    color : white;
+}

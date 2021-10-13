@@ -1,0 +1,25 @@
+
+.welcomeCard {
+    position: relative;
+    width: 50%;
+    margin : 50px auto;
+    border-radius: 10px;
+    background-color : rgb(58, 53, 53);
+    padding : 30px;
+    color : white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcomeCard-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcomeCard-descrtiption, .welcomeCard-descrtiption__two {
+    font-size: 20px;
+    font-weight: 300;
+    text-align : center;
+    margin-bottom: 10px;
+}

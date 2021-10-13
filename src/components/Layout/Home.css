@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.background-image {
+    position : relative;
+    background-image: url(../../assets/image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 30px;
+    font-family: 'Poppins', sans-serif;
+}

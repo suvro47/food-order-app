@@ -1,0 +1,31 @@
+
+.cart-btn {
+    background-color: rgb(93, 18, 18);
+    color : white;
+    border : none;
+    border-radius: 25px;
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+    padding : 10px 35px 10px 35px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.cart-btn_item {
+    padding : 0 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.quantity {
+    font-size : 18px; 
+    border-radius: 50%;
+    margin : 0 5px 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-btn {
+        padding : 10px 17px 10px 17px;
+    }
+}

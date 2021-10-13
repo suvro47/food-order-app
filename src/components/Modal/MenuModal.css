@@ -1,0 +1,21 @@
+
+
+.menu-bar {
+    text-align: center;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 3s ease-in-out;
+}
+  
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+}
+  
+.ReactModal__Overlay--before-close {
+    opacity: 1;
+    transform: translateX(-100%);
+}
