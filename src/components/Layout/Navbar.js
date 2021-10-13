@@ -5,9 +5,9 @@ import MenuIcon from "@material-ui/icons/Menu"
 import MenuModal from '../Modal/MenuModal';
 import useWindowSize from '../Menu/useWindowSize';
 
-import './Header.css';
+import './Navbar.css';
 
-export default function Header() {
+export default function Navbar() {
 
     const [show, setShow] = useState(false);
     const [height, width] = useWindowSize();

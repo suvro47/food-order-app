@@ -1,12 +1,12 @@
 
-import Header from './components/Layout/Header'
+import Navbar from './components/Layout/Navbar'
 import Home from './components/Layout/Home'
 
 function App() {
 
   return (
     <div>
-      <Header />
+      <Navbar />
       <Home />
     </div>
   );
