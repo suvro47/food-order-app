@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import CartActionButton from '../Cart/CartActionButton'
 import MenuIcon from "@material-ui/icons/Menu"
-import MenuModal from '../Modal/MenuModal';
+import MenuModal from '../Menu/MenuModal';
 import useWindowSize from '../Menu/useWindowSize';
 
 import './Navbar.css';
@@ -13,15 +13,6 @@ export default function Navbar() {
     const [height, width] = useWindowSize();
 
     console.log("outside of effect" + height + " " + width);
-
-    // useEffect(() => {
-    //     if (show) {
-    //         document.body.style.overflow = 'hidden';
-    //     }
-    //     return () => {
-    //         document.body.style.overflow = 'unset';
-    //     };
-    // }, [show]);
 
     const openMenu = () => {
         setShow(true);

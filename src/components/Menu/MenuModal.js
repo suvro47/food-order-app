@@ -34,24 +34,23 @@ const customStyles = {
 export default function MenuModal({ show, setShow }) {
 
     return (
-        <>
-            {/* <div style={overlay}> overlay portion </div> */}
-            <Modal
-                isOpen={show}
-                ariaHideApp={false}
-                onRequestClose={() => setShow(false)}
-                style={customStyles}
-                htmlOpenClassName='overflow-hidden'
-            >
-                <div className="menu-bar">
-                    <div className=""> Home </div>
-                    <div className="line"> </div>
-                    <div className=""> Contact Us </div>
-                    <div className="line"> </div>
-                    <div className=""> Get Started </div>
-                </div>
-            </Modal>
-        </>
+
+        <Modal
+            isOpen={show}
+            ariaHideApp={false}
+            onRequestClose={() => setShow(false)}
+            style={customStyles}
+            htmlOpenClassName='overflow-hidden'
+        >
+            <div className="menu-bar">
+                <div className=""> Home </div>
+                <div className="line"> </div>
+                <div className=""> Contact Us </div>
+                <div className="line"> </div>
+                <div className=""> Get Started </div>
+            </div>
+        </Modal>
+
     );
 
 }
