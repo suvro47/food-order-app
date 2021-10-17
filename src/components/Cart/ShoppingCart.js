@@ -42,5 +42,3 @@ export default function ShoppingCart({ show, setShow }) {
         </Modal>
     )
 }
-
-ReactDOM.render(<ShoppingCart />, document.getElementById('root'));

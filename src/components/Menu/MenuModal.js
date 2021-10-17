@@ -54,5 +54,3 @@ export default function MenuModal({ show, setShow }) {
     );
 }
 
-ReactDOM.render(<MenuModal />, document.getElementById('root'));
-
