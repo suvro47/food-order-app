@@ -1,8 +1,9 @@
 
-import Modal from "react-modal";
-import './MenuModal.css'
-
 import React from 'react'
+import ReactDOM from 'react-dom';
+import Modal from "react-modal";
+
+import './MenuModal.css'
 
 const customStyles = {
 
@@ -31,16 +32,16 @@ const customStyles = {
     },
 };
 
+Modal.setAppElement('#root');
+
 export default function MenuModal({ show, setShow }) {
 
     return (
-
         <Modal
             isOpen={show}
             ariaHideApp={false}
             onRequestClose={() => setShow(false)}
             style={customStyles}
-            htmlOpenClassName='overflow-hidden'
         >
             <div className="menu-bar">
                 <div className=""> Home </div>
@@ -50,8 +51,8 @@ export default function MenuModal({ show, setShow }) {
                 <div className=""> Get Started </div>
             </div>
         </Modal>
-
     );
-
 }
+
+ReactDOM.render(<MenuModal />, document.getElementById('root'));
 

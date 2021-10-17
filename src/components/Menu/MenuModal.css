@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+.ReactModal__Body--open {
+    overflow-y: hidden;
+}
+
+/* glo
+bal transition proparty */
 .ReactModal__Overlay {
     opacity: 0;
     transform: translateX(-100%);
@@ -20,6 +26,3 @@
     transform: translateX(-100%);
 }
 
-.ReactModal__Body--open {
-    overflow-y: hidden;
-}

@@ -44,9 +44,9 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="menu-modal">
-                <MenuModal show={show} setShow={setShow} />
-            </div>
+
+            <MenuModal show={show} setShow={setShow} />
+
         </>
     );
 }
